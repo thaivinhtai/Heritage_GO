@@ -1,0 +1,111 @@
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+body {
+    /* set color of body - way point 6 */
+    color: #262626;
+
+    /* adding extra properties - could delete if needed */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* set style of header - way point 5 */
+    height: 80px;
+    background-color: white;
+    color: #262626;
+    width: 100%;
+
+    /* make this element's children position into a row - way point 6 */
+    display: flex;
+    align-items: center;
+
+    /* make a line break - way point 6 */
+    border-bottom:  1px solid rgba(0,0,0, .0975);
+}
+
+.main-content {
+    /* style this element has a width the same with "Feed section" */
+    width: 600px;
+
+    align-items: center;
+    margin: 0 auto;
+
+    /* place position for logo and group of name and compass icon */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    transition: all .1s ease-out;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+
+
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+.gr-name-compass-icon{
+    float: right;
+    display: inline-flex;
+}
+
+.primary-area {
+    font-family: Arial sans-serif;
+    font-size: 18px;
+    text-align: center;
+    /* this attr show on demo but not mention in description*/
+    font-weight: bold;
+}
+
+.secondary-area {
+    font-family: Arial sans-serif;
+    font-size: 14px;
+    text-align: center;
+    /* this attr show on demo but not mention in description*/
+    font-weight: bold;
+}
+
+.compass-icon {
+    text-align: center;
+    margin: 6px;
+    animation-name: spin;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.compass-icon i {
+    font-size: 24px;
+
+}
+.login-button {
+    position: relative;
+    right: 0;
+    margin: 24px;
+}
+.login-button button {
+    font-family: Arial sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+    border-color: #e6e6e6;
+    text-align: center;
+    background: white;
+}
+main {
+    background-color: #fafafa;
+}
