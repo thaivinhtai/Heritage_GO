@@ -15,6 +15,9 @@ body {
     /* adding extra properties - could delete if needed */
     margin: 0;
     padding: 0;
+
+    /* set resolution - waypoint 9 */
+    width: 100%;
 }
 
 header {
@@ -49,6 +52,7 @@ header {
     height: auto;
     display: inline-block;
     transition: all .1s ease-out;
+    margin-left: 24px;
 }
 .logo img {
     width: 100px;
@@ -62,6 +66,9 @@ header {
 .gr-name-compass-icon{
     float: right;
     display: inline-flex;
+
+    /* set fixed margin - waypoint 9 */
+    margin-right: 24px;
 }
 
 .primary-area {
@@ -95,8 +102,9 @@ header {
 }
 .login-button {
     position: relative;
-    right: 0;
-    margin: 24px;
+
+    /* set fixed margin - waypoint 9 */
+    margin-right: 24px;
 }
 .login-button button {
     font-family: Arial sans-serif;
