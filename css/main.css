@@ -72,7 +72,7 @@ header {
 }
 
 .primary-area {
-    font-family: Arial sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 18px;
     text-align: center;
     /* this attr show on demo but not mention in description*/
@@ -80,7 +80,7 @@ header {
 }
 
 .secondary-area {
-    font-family: Arial sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 14px;
     text-align: center;
     /* this attr show on demo but not mention in description*/
@@ -89,25 +89,28 @@ header {
 
 .compass-icon {
     text-align: center;
-    margin: 6px;
-    animation-name: spin;
+    margin: 3px;
+    /* animation-name: spin;
     animation-duration: 3000ms;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear; */
 }
 
 .compass-icon i {
     font-size: 24px;
+    animation-name: spin;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 .login-button {
     position: relative;
-
-    /* set fixed margin - waypoint 9 */
     margin-right: 24px;
+    align-self: center;
 }
 .login-button button {
-    font-family: Arial sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 14px;
     border-radius: 3px;
     border-color: #e6e6e6;
@@ -117,3 +120,15 @@ header {
 main {
     background-color: #fafafa;
 }
+.modal-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px white;
+    border-bottom-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+  }
