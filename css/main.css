@@ -132,3 +132,46 @@ main {
     border-bottom-right-radius: 0.3rem;
     border-bottom-left-radius: 0.3rem;
   }
+
+.container {
+  background: #FAFAFA;
+  padding-top: 50px;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  bottom: 0;
+
+  .card {
+    background: #fff;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+
+      .card-header {
+
+        .profile-img {
+          display: inline-block;
+          background: red;
+          height: 50px;
+          width: 50px;
+        }
+        .profile-info {
+          display: inline-block;
+          .name {
+            font-size: 14px;
+            color: #111;
+            font-weight: 700;
+          }
+          .location {
+            font-size: 12px;
+            color: 111;
+          }
+        }
+        .time {
+          display: inline-block;
+        }
+      }
+  }
+}
