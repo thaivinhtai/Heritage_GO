@@ -310,9 +310,9 @@ hr{
  height: 32px;
  width: 32px;
  padding: 0;
- overflow: hidden;
+ /* overflow: hidden;
  color: #fff !important;
- background: #b5b6b6;
+ background: #b5b6b6; */
 
 display: flex;
 flex-direction: column;
