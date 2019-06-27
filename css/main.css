@@ -189,7 +189,7 @@ main {
 
 .container {
   background-color: #fafafa;
-  padding: 60px;
+  padding: 10px;
   font-family: 'Droid Sans', sans-serif;
 }
 
@@ -293,7 +293,7 @@ hr{
 }
 .cardbox {
   border-radius: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 0px !important;
 }
 
@@ -466,37 +466,48 @@ text-align: center;
   display: inline-block;
 }
 .cardbox-comments .comment-avatar img{
-  margin-top: 1px;
+  margin-top: 10px;
   margin-right: 10px;
   position: relative;
   display: inline-block;
   text-align: center;
-  width: 40px;
-  height: 40px;
+  width: 10px;
+  height: 10px;
 }
 .cardbox-comments .comment-body {
   overflow: auto;
 }
 .search {
- position: relative;
- right: -60px;
- top: -40px;
- margin-bottom: -40px;
- border: 2px solid #f4f4f4;
- width: 100%;
- overflow: hidden;
+  position: relative;
+  right: -60px;
+  top: -30px;
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: -40px;
+  border: 2px solid #f4f4f4;
+  width: 100%;
+  overflow: hidden;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 30px;
+  height: 40px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
 }
 .search input[type="text"] {
  background-color: #fff;
  line-height: 10px;
- padding: 15px 60px 20px 10px;
+ padding: 16px 60px 20px 10px;
  border: none;
  border-radius: 4px;
- width: 350px;
+ width: 500px;
  font-family: 'Rokkitt', serif;
  font-size: 14px;
  color: #8d8d8d;
- height: inherit;
+ height: 10px;
  font-weight: 700;
 }
 .search button {
@@ -506,8 +517,9 @@ text-align: center;
  border: none;
  background-color: transparent;
  color: #bbbbbb;
- padding: 15px 25px;
+ padding: 3px 30px;
  cursor: pointer;
+ width: 15px;
 
  display: flex;
 flex-direction: column;
@@ -534,4 +546,12 @@ text-align: center;
  font-family: 'Rokkitt', serif;
  font-size: 16px;
  color: #8d8d8d;
+}
+
+.translate__icon {
+  width: 20px;
+  height: 20px;
+  box-shadow: 0%;
+  border-radius: 0%;
+  background-color: transparent;
 }
